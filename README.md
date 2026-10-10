@@ -1,3 +1,13 @@
-# LogIn-SignUp-With-JavaScript-LocalStorage
+# js-localstorage-auth
 
-It is a basic Login and Signup page with LocalStorage - JavaScript. Once a user Signed in, it moves to a dashboard page .In the dashboard page, it will show previous users who are signed in and a Logout button which redirects to login page. The users are able to Sign in with new Username or Mail id (or) user can login with previous mail id.
+A sign-up and log-in page in plain HTML, CSS and JavaScript. Accounts are kept in the browser's localStorage, so there is no server.
+
+Built in July 2021.
+
+After you sign in, a dashboard lists the users saved in this browser and has a log-out button. You can sign in with a username or an email address.
+
+Passwords are stored in plain text in localStorage. That is fine for learning how forms and browser storage work. It is not how real logins should work.
+
+## Run it
+
+Open `index.html` in a browser.
